@@ -1,0 +1,13 @@
+
+.env
+.DS_Store
+
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+instance/
+*.log
+.dockerignore
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}Edit Task{% endblock %} {% block
+content %}
+<h1>Edit Task</h1>
+<form method="POST" action="">
+  {{ form.hidden_tag() }}
+  <p>
+    {{ form.title.label }}<br />
+    {{ form.title(size=32) }}<br />
+  </p>
+  <p>
+    {{ form.description.label }}<br />
+    {{ form.description(rows=5) }}<br />
+  </p>
+  <p>{{ form.submit() }}</p>
+</form>
+{% endblock %}

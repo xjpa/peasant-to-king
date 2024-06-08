@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+}
+nav a {
+    margin-right: 10px;
+}
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+}
